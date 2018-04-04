@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>audioex</title>
+</head>
+<body>
+
+<audio id="player" src="src/spring.mp3">
+    <audio autoplay loop></audio>
+</audio>
+<div>
+    <button onclick="document.getElementById('player').play()">Play</button>
+    <button onclick="document.getElementById('player').pause()">Pause</button>
+    <button onclick="document.getElementById('player').volume+=0.1">Volume Up</button>
+    <button onclick="document.getElementById('player').volume-=0.1">Volume Down</button>
+    <button onclick="document.getElementById('player').loop">Loop</button>
+</div>
+</body>
+</html>
