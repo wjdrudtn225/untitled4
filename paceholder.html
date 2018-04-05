@@ -5,13 +5,21 @@
     <title>placeholder</title>
 </head>
 <body>
-<label for="hobbies">Your hobbies</label>
-<input id="hobbies" name="hobbies" type="text" placeholder="Owl stretching">
-<label for ="status">What's happening?</label>
-<input id= "status" name="status" type="text" autofocus>
 
-<label for="pass"> Your password</label>
-<input id="pass" name="pass" type="password" required>
+<label for="homeworld">Your home planet</label>
+<input type="text" name="homeworld" id="homeworld" list="plants">
+<datalist id="plants">
+    <option value="Mercury">
+    <option value="Venus">
+    <option value="Earth">
+    <option value="Mars">
+    <option value="Jupiter">
+    <option value="Saturn">
+    <option value="Uranus">
+    <option value="Neptune">
+</datalist>
 
+<label for="query">Search</label>
+<input id="query" name="query" type="search">
 </body>
 </html>
